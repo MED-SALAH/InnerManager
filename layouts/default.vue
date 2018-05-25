@@ -17,7 +17,7 @@
       </v-toolbar-title>
       <v-toolbar-items>
         <v-btn  light flat color="white" to="/">Acceuil</v-btn>
-        <v-btn  flat color="white" to="/eaux">Statistique</v-btn>
+        <v-btn  flat color="white" to="/Statistique">Statistique</v-btn>
         <v-btn  flat color="white" to="/Autre">Autre</v-btn>
       </v-toolbar-items>
 

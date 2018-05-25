@@ -1,9 +1,7 @@
-export class Company {
-  constructor (Name, props) {
-    this.Name = 'samaj',
-    props = ['test', 'testt']
+export default class Company {
+  constructor (id, name, water) {
+    this.id = id
+    this.name = name
+    this.water = water
   }
 }
-// export default {
-//   porps: ['test', 'testt']
-// }

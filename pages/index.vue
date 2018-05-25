@@ -92,7 +92,7 @@ export default {
         {text: 'Progress 3', valeur: 80, unit: 'Gbts', bicon: 'wifi', coul: 'black--text', col: 'red accent-4'}
       ],
       Etcom: [
-        {clicker: () => this.$store.commit('decrementrep'), color: 'red--text', mcon: 'domain', texte: 'name', val1: 'entrep', val2: 'Entreprise', nomB: 'Choisire Entreprise'},
+        {clicker: () => this.$store.commit('decrementrep'), color: 'red--text', mcon: 'domain', texte: 'list', val1: 'entrep', val2: 'Entreprise', nomB: 'Choisire Entreprise'},
         {clicker: () => this.$store.commit('decremzone'), color: 'teal--text lighten-4', mcon: 'place', texte: 'Zones', val1: 'zone', val2: 'Zones'},
         {clicker: () => this.$store.commit('decremcapt'), color: 'purple--text darken-2', mcon: 'router', texte: 'Capteurs', val1: 'capt', val2: 'Capteurs installés'}
       ],
